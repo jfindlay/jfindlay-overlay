@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>jfindlay-overlay</name>
+    <description>jfindlay's gentoo overlay</description>
+    <homepage>https://github.com/jfindlay/jfindlay-overlay</homepage>
+    <owner type="project">
+      <email>jfindlay@gmail.com</email>
+      <name>Justin Findlay</name>
+    </owner>
+    <source type="git">git://github.com/jfindlay/jfindlay-overlay.git</source>
+    <feed>https://github.com/jfindlay/jfindlay-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>

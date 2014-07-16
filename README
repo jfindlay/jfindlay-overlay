@@ -1,0 +1,3 @@
+# based on https://github.com/ryao/pipelight-overlay/
+emerge dev-vcs/git app-portage/layman
+layman -o https://raw.github.com/jfindlay/jfindlay-overlay/master/overlay.xml -f -a jfindlay
