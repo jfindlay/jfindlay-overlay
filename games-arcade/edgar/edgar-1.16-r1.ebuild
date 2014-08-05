@@ -1,6 +1,14 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
+# TODO:
+# - makefile patch to include CFLAGS
+# - doc USE flag/makefile patch
+# - test USE flag/makefile patch
+# - locale USE flags/makefile patch
+# - fix incorrect desktop file, push upstream
+# - icon(s)
+
 EAPI=5
 inherit eutils games
 
@@ -25,11 +33,6 @@ DEPEND="media-libs/libsdl
 	media-libs/sdl-mixer
 	media-libs/sdl-ttf"
 
-src_compile() {
-	emake DESTDIR="${D}" || die 'emake install failed'
-}
-
 src_install() {
-	dogamesbin ${PN} || die 'dogamesbin failed'
-	prepgamesdirs
+	emake DESTDIR="${D}" BIN_DIR="${D}/usr/games/bin/" install
 }
