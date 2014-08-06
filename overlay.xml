@@ -2,7 +2,7 @@
 <!DOCTYPE repositories SYSTEM "repositories.dtd">
 <repositories xmlns="" version="1.0">
   <repo quality="experimental" status="unofficial">
-    <name>jfindlay-overlay</name>
+    <name>jfindlay</name>
     <description>jfindlay's gentoo overlay</description>
     <homepage>https://github.com/jfindlay/jfindlay-overlay</homepage>
     <owner type="project">

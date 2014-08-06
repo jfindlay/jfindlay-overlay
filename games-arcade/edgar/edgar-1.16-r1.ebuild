@@ -7,7 +7,9 @@
 # - test USE flag/makefile patch
 # - locale USE flags/makefile patch
 # - fix incorrect desktop file, push upstream
-# - icon(s)
+# - fix icon path(s)
+# - create man page
+# - patch option for config dir in ~/.config/edgar
 
 EAPI=5
 inherit eutils games
@@ -26,7 +28,7 @@ SRC_URI="mirror://sourceforge/project/legendofedgar/${PV}/${PN}-${MY_PVR}.tar.gz
 
 LICENSE='GPL-2'
 SLOT='0'
-KEYWORDS='x86'
+KEYWORDS='x86 amd64'
 IUSE=''
 
 DEPEND="media-libs/libsdl
