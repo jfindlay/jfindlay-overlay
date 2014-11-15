@@ -33,6 +33,7 @@ IUSE=''
 
 DEPEND="media-libs/libsdl
 	media-libs/sdl-mixer
+	media-libs/sdl-image
 	media-libs/sdl-ttf"
 
 src_install() {
