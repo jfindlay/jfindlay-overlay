@@ -3,9 +3,8 @@
 
 # TODO:
 # - makefile patch to include CFLAGS
-# - doc USE flag/makefile patch
-# - test USE flag/makefile patch
-# - locale USE flags/makefile patch
+# - USE flags/makefile patch
+#   - doc, test, locale
 # - fix incorrect desktop file, push upstream
 # - fix icon path(s)
 # - create man page
